@@ -1,0 +1,62 @@
+.home-container {
+    padding: 24px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .home-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .company-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .company {
+    background-color: #ffffff; /* Background color for logo containers */
+    border: 1px solid #ddd; /* Border for logo containers */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding inside the container */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center the logo and text */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation effect */
+    height: 200px;
+    display: flex;
+  }
+
+  .company a{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: space-between;
+  }
+ 
+  
+  .company:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  }
+  
+  .company-logo {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .company-name {
+    font-size: 1rem; /* Font size for company names */
+    color: #333; /* Color for company names */
+  }
+  

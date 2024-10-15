@@ -1,0 +1,23 @@
+.filter-section {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .product-card {
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  }
+  
+  .card-text strike {
+    color: #999;
+  }
+  
+  .btn-primary {
+    background-color: #ff6600;
+    border-color: #ff6600;
+  }
+  

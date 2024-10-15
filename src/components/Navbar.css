@@ -1,0 +1,182 @@
+/* Top section of the navbar */
+.navbar-top {
+  background-color: #5b0606; /* Dark red background for top section */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.navbar-right-links a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #141010;
+}
+
+.navbar-right-links a:hover {
+  color: #ffffff;
+}
+
+/* Main navbar container */
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  padding: 1px 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.logo img {
+  max-width: 140px;
+}
+
+/* Three-dot icon styling */
+.threedot img {
+  max-width: 25px;
+  cursor: pointer;
+}
+
+/* Navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 20px;
+}
+
+.nav-links li {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff5722;
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar select {
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+  background-color: #eeeeee;
+  margin-right: 5px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.search-bar input {
+  padding: 8px;
+  border-radius: 10px 0px 0 10px ;
+  outline: none;
+  border: 0;
+  width: 250px;
+  background-color: #f7f7f7;
+}
+
+.search-bar button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #eeeeee;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Cart icon styling */
+.cart-icon img {
+  width: 35px;
+  cursor: pointer;
+}
+
+.cart-icon img:hover {
+  opacity: 0.8;
+}
+
+/* Dropdown menu styling */
+.dropdown img {
+  width: 35px; /* Set the width of the cart icon */
+  cursor: pointer; /* Pointer cursor for the cart */
+}
+
+.dropdown img:hover {
+  opacity: 0.8; /* Slight opacity change on hover */
+}
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  min-width: 160px;
+  padding: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.dropdown.active .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile-name {
+  margin-left: 8px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Product list styling */
+.product-list {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+}
+
+.product-item:hover {
+  background-color: #f1f1f1;
+}
