@@ -58,7 +58,7 @@ const SearchResults = () => {
     setDesiredPrice(''); // Clear the desired price input
     setShowPriceInput(true); // Show the input for desired price
   };
-
+  
   return (
     !showCompare ? (
       <div className='p-2'>
